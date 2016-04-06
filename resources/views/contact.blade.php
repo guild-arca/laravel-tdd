@@ -38,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Guild PHP ;)</div>
+                <div class="title">Contact : OK</div>
             </div>
         </div>
     </body>
