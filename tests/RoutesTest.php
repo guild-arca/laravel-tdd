@@ -50,6 +50,27 @@ class RoutesTest extends TestCase
     }
 
     /**
+     * Route testing: About us (Header)
+     *
+     * @return void
+     */
+    public function test_Route_AboutUs_Header()
+    {
+        $response = $this->call('GET', '/about-us');
+        $this->assertEquals(200, $response->status());
+    }
+
+    /**
+     * Route testing: About us (Content)
+     *
+     * @return void
+     */
+    public function test_Route_AboutUs_Content()
+    {
+        $this->visit('/about-us')->see('About us : OK');
+    }
+
+    /**
      * Route testing: Contact (Header)
      *
      * @return void
