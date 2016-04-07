@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c284a9c122da36c99a8b6597bdce7aa6",
-    "content-hash": "8b1485987e7c5949da82435d403e52e8",
+    "hash": "3a397bad4e8727047690c1dfeb238f4e",
+    "content-hash": "e3ce25ea3d731671a1edd8f1beb3cdcd",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -160,6 +160,43 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
+        },
+        {
+            "name": "efuzyon/tools",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eFuzyon/tools.git",
+                "reference": "330d58d53b1fa668b13c28da85a502bda51771e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eFuzyon/tools/zipball/330d58d53b1fa668b13c28da85a502bda51771e1",
+                "reference": "330d58d53b1fa668b13c28da85a502bda51771e1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "classes/string.class.php",
+                    "classes/uri.class.php",
+                    "classes/password.class.php",
+                    "classes/debug.class.php",
+                    "classes/datetime.class.php",
+                    "classes/benchmark.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Leandro Sanches",
+                    "email": "leandro.sanches@efuzyon.com"
+                }
+            ],
+            "time": "2016-04-05 23:58:41"
         },
         {
             "name": "jakub-onderka/php-console-color",
